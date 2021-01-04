@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Myform from './MyForm';
+import DoHeader from './Header';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+          <DoHeader/>
+          <img width="500px" className="sideImg" src="https://thumbs.dreamstime.com/b/lock-vector-icon-modern-design-style-web-site-mobile-app-illustration-169703152.jpg"></img>
+          <Myform/>
     </div>
+  
+    
+  
+
   );
 }
 
